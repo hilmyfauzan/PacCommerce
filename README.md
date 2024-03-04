@@ -39,11 +39,28 @@
     - User current monthly expense and income
     - Monthly expense and income requirement of each tier
 
-<p style="text-align: center"><img src="https://github.com/hilmyfauzan/PacCommerce/assets/144140564/ae59f048-ba9d-408a-8420-3383ffbcfbec"></p>
+<p align="center">
+  <img src="https://github.com/hilmyfauzan/PacCommerce/assets/144140564/ae59f048-ba9d-408a-8420-3383ffbcfbecraw=true" alt="Distance Based Membership Prediction System"/>"
+</p>
 
+<p align="center"><b>Image 1.</b> Distance Based Membership Prediction System</p>
 
  - The system will chose the membership with shortest distance using Eucledian Distance Method
+ 
+ - Here is the eucledian distance formula for the membership prediction system :
 
+   ### $r_{user-membership} = \sqrt{(expense_{user} - expense_{membership})^2 + (income_{user} - income_{membership})^2}$
 
+   - $r_user-membership$ : Eucledian distance between user current monthly income and expense and membership requirement
+   - $expense_user$ : User monthly expense in PacCommerce
+   - $expense_membership$ : Monthly expense requirement for spesific membership tier
+   - $income_user$ : User monthly total top-up in PacCommerce
+   - $income_membership$ : Monthly total top-up requirement for spesific membership tier
+
+## **File Description**
+- main.py : This is where the main program is being developed
+- module.py : This is a library to store all supporting function for the main program
+- database.py : This is a library to store all supporting database for the main program
+- study_case.ipynb : This is a study case to test if the main program is working properly
 
 
